@@ -17,4 +17,4 @@ You may also see any lint errors in the console.
 The initial app comes from here [Authentication with Okta](https://github.com/smashingmagazine/Authentiaction-with-Okta).
 This forked app provides a solution for those using TypeScript. It also removes some unneeded files.
 
-You'll need to replace your OktaBaseURL and clientId to get things working (in config.tsx)
+You'll need to replace your oktaBaseURL and oktaClientId to get things working (in config.tsx)
