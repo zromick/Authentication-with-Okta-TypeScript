@@ -28,6 +28,7 @@ function Home() {
         <>
           <h2>
             Welcome back,
+            {' '}
             {name}
           </h2>
           <article>
@@ -37,10 +38,10 @@ function Home() {
               }) => ( */}
             <div className="card">
               <div>
-                Card Display
+                UI Display
               </div>
             </div>
-            ),
+            {/* ), */}
             {/* )} */}
           </article>
         </>

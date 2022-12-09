@@ -1,14 +1,9 @@
-// export const oktaConfig = {
-// issuer: `https://${process.env.REACT_APP_OKTA_BASE}/oauth2/default`,
-// clientId: process.env.REACT_APP_OKTA_CLIENT,
-// redirectUri: `${window.location.origin}/login/callback`,
-// scopes: ["openid", "profile", "email"],
-// pkce: true,
-// };
+const OktaBaseURL = 'dev-12345678.okta.com'; // Replace this with your own dev URL
+const OktaClientId = '0123456789101112'; // Replace this with your own client ID
 
 const oktaConfig = {
-  issuer: 'https://dev-27102111.okta.com/oauth2/default',
-  clientId: '0oa7cjnpecd0YOvnG5d7',
+  issuer: `https://${OktaBaseURL}/oauth2/default`,
+  clientId: OktaClientId,
   redirectUri: `${window.location.origin}/login/callback`,
   scopes: ['openid', 'profile', 'email'],
   pkce: true,

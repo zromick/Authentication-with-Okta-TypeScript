@@ -35,22 +35,3 @@ const RequiredAuth = function RenderRequiredAuth() {
 };
 
 export default RequiredAuth;
-
-// function Product() {
-//   let match = useRouteMatch();
-//   return (
-//       <div>
-//           <Switch>
-//               {/* match.path returns the path specified in parent route. In this case it is "/product" */}
-//               <Route path={`${match.path}`}>
-//                   <AllProducts />
-//               </Route>
-//               {/* And in this case it is /product/:id */}
-//               <Route path={`${match.path}/:id`}>
-//                   <ProductDetail />
-//               </Route>
-//           </Switch>
-
-//       </div>
-//   );
-// }
